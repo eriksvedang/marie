@@ -1,0 +1,104 @@
+
+/*
+font-family: 'Philosopher', sans-serif;
+font-family: 'Allerta', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Allerta Stencil', sans-serif;
+*/
+
+body {
+	/*background: url('../img/birds.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+
+	font-family: 'Allerta', sans-serif;
+}
+
+div {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+h1 {
+	font-size: 4.0em;
+	margin-bottom: 0.8em;
+	text-align: center;
+	text-transform: uppercase;
+	color: #333;
+}
+
+h2 {
+	font-size: 2.0em;
+	margin-bottom: 1em;
+	text-align: center;
+	text-transform: uppercase;
+	color: #DDD;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.content {
+	/*background: rgba(240, 240, 240, 1.0);*/
+	max-width: 90%;
+	border-radius: 0px;
+	margin: 5% auto 5% auto;
+	padding: 5em;
+	/*border: #DDD solid 3px;*/
+	box-shadow: 0px 0px 20px #DDD;
+}
+
+nav {
+	text-align: center;
+	margin: 50px;
+	color: #AAA;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+nav a {
+	color: #AAA;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-transform: uppercase;
+}
+
+.line {
+	background-color: #AAA;
+	width: 50px;
+	height: 1px;
+	display: inline-block;
+	margin-bottom: 0.3em;
+}
+
+.half {
+	width: 50%;
+	float: left;
+}
+
+img {
+	width: 80%;
+	margin-left: 10%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #F08;
+}
+
+p {
+	margin-top: 20px;
+	text-align: center;
+	color: #333;
+	font-size: 2em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.weak {
+	color: #CCC;
+}
