@@ -8,6 +8,7 @@ h2 {
 	font-size: 2.0em;
 	margin-bottom: 1em;
 	color: #CCC;
+	display: block;
 }
 
 .content {
@@ -20,11 +21,13 @@ nav {
 	margin: 50px;
 	font-size: 1.2em;
 	font-weight: 100;
+	color: #AAA;
 }
 
 nav a {
 	margin-left: 20px;
 	margin-right: 20px;
+	color: #AAA;
 }
 
 .line {
