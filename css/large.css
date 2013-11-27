@@ -1,0 +1,40 @@
+
+h1 {
+	font-size: 4.0em;
+	margin-bottom: 0.8em;
+}
+
+h2 {
+	font-size: 2.0em;
+	margin-bottom: 1em;
+}
+
+.content {
+	max-width: 90%;
+	margin: 5% auto 5% auto;
+	padding: 5em;
+}
+
+nav {
+	margin: 50px;
+	font-size: 1em;
+}
+
+nav a {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.line {
+	display: inline-block;
+}
+
+img {
+	margin-left: 10%;
+	width: 80%;
+}
+
+p {
+	font-size: 2em;
+	margin-top: 20px;
+}
