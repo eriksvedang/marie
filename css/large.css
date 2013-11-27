@@ -1,45 +1,13 @@
 
-h1 {
-	font-size: 4.0em;
-	margin-bottom: 0.8em;
-}
-
-h2 {
-	font-size: 2.0em;
-	margin-bottom: 1em;
-	color: #CCC;
-	display: block;
-}
-
 .content {
-	max-width: 90%;
-	margin: 5% auto 5% auto;
 	padding: 5em;
-}
-
-nav {
-	margin: 50px;
-	font-size: 1.2em;
-	font-weight: 100;
-	color: #AAA;
 }
 
 nav a {
 	margin-left: 20px;
 	margin-right: 20px;
-	color: #AAA;
 }
 
 .line {
-	display: inline-block;
-}
-
-img {
-	margin-left: 10%;
-	width: 80%;
-}
-
-p {
-	font-size: 2em;
-	margin-top: 20px;
+	width: 60px;
 }
