@@ -31,13 +31,15 @@ h1 {
 }
 
 h2 {
-	text-align: center;
-	text-transform: uppercase;
-	color: #BBB;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
 	font-size: 1.0em;
 	margin-bottom: 10px;
+	display: none;
+
+	color: #AAA;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
 }
 
 .content {
@@ -51,12 +53,12 @@ h2 {
 
 nav {
 	margin-bottom: 10px;
-	font-size: 0.7em;
+	font-size: 1.0em;
 
 	text-align: center;
 	color: #AAA;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
+	font-weight: 100;
 }
 
 nav a {
