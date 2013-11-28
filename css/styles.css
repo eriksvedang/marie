@@ -82,11 +82,13 @@ nav a {
 	margin-right: 5px;
 	margin-bottom: 5px;
 	padding: 5px;
-	color: #F08;
+	color: #000;
 	font-weight: 100;
 	font-size: 2em;
-	font-family: 'Roboto', sans-serif;
+	line-height: 1em;
+	font-family: 'Montserrat', sans-serif;
 	display: block;
+	text-transform: uppercase;
 }
 
 .line {
@@ -119,7 +121,6 @@ p {
 	font-size: 1em;
 	margin-top: 0.2em;
 
-	text-align: center;
 	color: #333;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
@@ -131,4 +132,28 @@ p {
 
 .left-column {
 	margin-bottom: 10px;
+}
+
+.selected {
+	/*background-color: #F98;*/
+	text-decoration: line-through;
+}
+
+/*.left-column a:hover {
+	color: #BBB;
+}*/
+
+strong {
+	font-weight: 800;
+	margin-right: 10px;
+}
+
+.image-text {
+	font-family: sans-serif;
+	font-weight: 100;
+	margin-bottom: 50px;
+	font-size: 1em;
+	line-height: 1.4em;
+	text-align: left;
+	margin: 10px 10px 50px 10px;
 }
