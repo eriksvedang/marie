@@ -72,8 +72,9 @@ nav a {
 .submenu {
 	text-transform: capitalize;
 	/*background-color: #F23;*/
-	text-align: left;
+	text-align: center;
 	line-height: 1.4em;
+	margin: 20px auto 20px auto;
 }
 
 .submenu a {
@@ -82,14 +83,9 @@ nav a {
 	margin-bottom: 5px;
 	padding: 5px;
 	color: #F08;
-	/*background-color: #DDD;*/
-	display: block;
 	font-weight: 100;
 	font-size: 2em;
 	font-family: 'Roboto', sans-serif;
-	/*min-width: 23%;*/
-	/*float: left;*/
-	/*float: left;*/
 	display: block;
 }
 
@@ -131,4 +127,8 @@ p {
 
 .weak {
 	color: #CCC;
+}
+
+.left-column {
+	margin-bottom: 10px;
 }

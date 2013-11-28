@@ -32,8 +32,23 @@ img {
 	width: 80%;
 }
 
-.portfolio-img {
-	float: right;
+.left-column {
+	width: 40%;
+	float: left;
+}
+
+.right-column {
 	width: 60%;
+	float: left;
+}
+
+.portfolio-img {
+	width: 100%;
+	margin: 0px;
 	margin-bottom: 50px;
+}
+
+.submenu a {
+	display: block;
+	text-align: left;
 }
