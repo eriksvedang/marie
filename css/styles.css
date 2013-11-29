@@ -158,3 +158,25 @@ strong {
 	text-align: left;
 	margin: 10px 10px 50px 10px;
 }
+
+.welcome-text {
+	/*text-align: center;*/
+	font-size: 1.2em;
+	letter-spacing: 0.12em;
+	line-height: 1.4em;
+	/*text-align: justify;*/
+	margin: 20px;
+}
+
+.email {
+	text-align: center;
+	margin: 20px;
+}
+
+.email a {
+	color: #000;
+}
+
+.email a:hover {
+	color: #F08;
+}

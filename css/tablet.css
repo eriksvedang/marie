@@ -20,7 +20,7 @@ h2 {
 
 nav {
 	margin: 0px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 
 	font-size: 1.0em;
 	font-weight: 100;
@@ -52,4 +52,15 @@ p {
 .submenu a {
 	display: inline;
 	font-size: 1.5em;
+}
+
+.welcome-text {
+	font-size: 1.2em;
+	letter-spacing: 0.12em;
+	line-height: 1.4em;
+	margin: 50px 100px;
+}
+
+.email {
+	margin-bottom: 50px;
 }
