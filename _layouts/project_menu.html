@@ -2,15 +2,14 @@
 layout: base
 ---
 
+<!-- class="selected" -->
+
 <div class="left-column">
 	<div class="submenu">
-		<a href="{{site.baseurl}}/stickat.html">Stickat</a>
-		<a href="{{site.baseurl}}/vavt.html">V&auml;vt</a>
-		<a href="{{site.baseurl}}/broderat.html">Broderat</a>
-		<a class="selected" href="{{site.baseurl}}/tryckt.html">Tryckt</a>
-		{% if page.title == "Broderat" %}
-			
-		{% endif %}
+		<a {% if page.title == "V&auml;vt" %} class="selected" {% endif %} href="{{site.baseurl}}/vavt.html">V&auml;vt</a>
+		<a {% if page.title == "Broderat" %} class="selected" {% endif %} href="{{site.baseurl}}/broderat.html">Broderat</a>
+		<a {% if page.title == "Tryckt" %} class="selected" {% endif %} href="{{site.baseurl}}/tryckt.html">Tryckt</a>
+		<a {% if page.title == "Stickat" %} class="selected" {% endif %} href="{{site.baseurl}}/stickat.html">Stickat</a>
 	</div>
 </div>
 
