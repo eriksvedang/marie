@@ -164,8 +164,31 @@ strong {
 	font-size: 1.2em;
 	letter-spacing: 0.12em;
 	line-height: 1.4em;
-	/*text-align: justify;*/
+	text-align: justify;
 	margin: 20px;
+}
+
+.project-description {
+    font-size: 1.0em;
+    margin-bottom: 2em;
+    font-family: sans-serif;
+    font-weight: 100;
+    line-height: 1.4em;
+    text-align: left;
+}
+
+.project-header {
+    font-size: 2.0em;
+    margin-bottom: 50px;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.project-line {
+    margin-bottom: 50px;
 }
 
 .email {
